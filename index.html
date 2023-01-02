@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+</head>
+<body>
+    <h1>Welcome to the better task list!</h1>
+
+    <h2>Please enter your name:</h2>
+    <input type="text" id="nameInput">
+
+    <h3>Add a task and hit submit</h3>
+    <div class="container">
+        <form action="/beep">
+            <input type="text" id="taskInput" name="taskInput">
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
